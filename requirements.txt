@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+python-telegram-bot==21.2
+Requests==2.32.3
+wfapi==0.8.1
