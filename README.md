@@ -26,3 +26,9 @@ SESSION_ID="bza32axq7bbzt9w5h1k6b163XXXXXXXX"
 ```
 docker-compose up -d --build
 ```
+
+## 如果获取2个配置参数
+
+TOKEN: 通过Telegram BotFather获取，[Telegram BotFather](https://t.me/botfather)，自己新建一个bot，然后获取token。
+
+SESSION_ID: 登录Workflowy，打开浏览器的开发者工具，通过Application->Storage->Cookie，找到https://workflowy.com 的cookie，再找到名为"SESSIONID"的键值对，复制其值。
